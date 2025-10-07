@@ -1,0 +1,1 @@
+# Repozytorium z przedmiotu Technologie Obiektowe
