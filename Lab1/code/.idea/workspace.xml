@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a622b527-067a-4203-adc2-ea49eb2b4b24" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/NBP-currency-echange/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBP-currency-echange/src/main/java/com/nbp/app/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBP-currency-echange/src/main/java/com/nbp/app/core/ExchangeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBP-currency-echange/src/main/java/com/nbp/app/model/ExchangeRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBP-currency-echange/src/main/java/com/nbp/app/model/ExchangeTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBP-currency-echange/src/main/java/com/nbp/app/parser/IDocumentParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBP-currency-echange/src/main/java/com/nbp/app/parser/XmlDocumentParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBP-currency-echange/src/main/java/com/nbp/app/repository/IRemoteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBP-currency-echange/src/main/java/com/nbp/app/repository/NbpApiRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBP-currency-echange/src/main/java/com/nbp/app/ui/console/ConsoleHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBP-currency-echange/src/main/java/com/nbp/app/ui/console/DisplayTableHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBP-currency-echange/src/main/java/com/nbp/app/ui/console/ExchangeCurrencyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBP-currency-echange/src/main/java/com/nbp/app/ui/console/ExitHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBP-currency-echange/src/main/java/com/nbp/app/ui/console/InvalidCommandHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBP-currency-echange/src/main/java/com/nbp/app/ui/console/MenuHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NBP-currency-echange/src/main/java/com/nbp/app/util/CurrencyCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../currency_exchange_UML.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/../currency_exchange_UML.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1To.pdf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="344n3EXtCssrDfNCKEohxY7dQBM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/embrz/Desktop/PK/zadania/sem5/TO/TO/Lab1/code/NBP-currency-echange/pom.xml",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-84258761d1cc-intellij.indexing.shared.core-IU-243.28141.18" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.28141.18" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a622b527-067a-4203-adc2-ea49eb2b4b24" name="Changes" comment="" />
+      <created>1760481514589</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760481514589</updated>
+      <workItem from="1760481516782" duration="53000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
