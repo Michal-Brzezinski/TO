@@ -1,0 +1,21 @@
+w kartezjańskim układzie współrzędnych. Interfejs IVector deklaruje metody:
+abs() - oblicza moduł wektora
+cdot() - oblicza iloczyn skalarny między dwoma wektorami (wywoływana na obiekcie,
+przyjmuje w parametrze r-wartość operatora binarnego)
+getComponents() - zwraca wartości składowych wektora
+Należy nadmienić, że Vector2D jest wektorem wodzącym - jego początek znajduje się w punkcie
+(0, 0) układu współrzędnych.
+Wektor dwuwymiarowy można również przedstawić w innej postaci - pary: moduł oraz kąt
+między osią OX a kierunkiem wektora. Wektor tej postaci posiada współrzędne w układzie
+biegunowym. Powstaje pytanie w jakiś sposób zmodyfikować istniejący diagram klas tak, by
+nie naruszyć zasad programowania obiektowego? Jednym ze sposobów, który wydaje się być
+oczywisty jest skorzystanie z dziedziczenia. Rysunek S2 przedstawia przykład rozwiązania
+problemu z wykorzystaniem dziedziczenia (część bladoczerwona). W istocie klasa 2DPolarInheritance
+dodaje nową metodę getAngle(), która za pomocą funkcji cyklometrycznych i definicji
+funkcji trygonometrycznych ma na celu obliczenie kąta między osią OX oraz kierunkiem wektora.
+Dziedziczy ona również komplet cech klasy Vector2D. Istota˛ dziedziczenia jest jednak jego
+wykonywanie w czasie kompilacji. Na etapie działania programu nie ma możliwości zmiany
+interfejsu już istniejących wektorów, co może stanowić istotne ograniczenie. Ograniczenie to
+można ominąć stosując rozwiązanie innego typu.
+
+a rozwiązanie z dziedziczeniem jasnofioletowym. Vector3DDecorator zawiera referencje, która agreguje dowolny IVector w referencji srcVector.IVector został tutaj użyty celem zachowania ogólności. Pozwala to wykorzystać wektor dwuwymiarowy w dowolnej postaci. Metoda do obliczenia iloczynu wektorowego to cross. cross zawsze zwraca wektor trójwymiarowy. Metoda getSrcV() zwraca referencję do obiektu dekorowanego, a w przypadku dziedziczenia tworzy nowy obiekt.

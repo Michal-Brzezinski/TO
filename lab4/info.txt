@@ -1,0 +1,20 @@
+- albo w wielu wątkach różne osobniki, albo wątek główny dozorcy
+- scentralizowane podejście/zdecentralizowane podejście do wyboru 
+- odjąć dwa wektory i wykonać moduł - odległość między osobnikami (albo przeciążyć funkcję odejmowania do odjęcia wektorów albo specjalna funkcja, zależnie od języka i jego możliwości)
+- kolorować osobników na różne barwy aby rozróżnić ich stany
+- ustawić limit prędkości poruszania się osobników
+- osobnicy przemieszczają się z losową prędkością i w losowych kierunkach
+- symulacja powinna zostać zrealizowana w sposób graficzny tak, aby widać było ruch osobników itp. (kolory i tak dalej)
+- zamiast losować składowe wektora, to losować kąt, żeby osobnicy nie wyglądali jak pijani ludzie, albo chorzy na Parkinsona, tylko żeby poruszali się jak gołębie na rynku np.
+- ruch osobników symulowany za pomocą wektorów z poprzedniego ćwiczenia
+- odporny osobnik nie ma absolutnie żadnej szansy na zakażenie
+- w uwadze: "Każda sekunda symulacji winna składać się z 25 kroków"
+trzeba jakąś funkcję freeze() robić przy krokach, bo jeden krok pętli for wykonuje się bardzo szybko, dlatego my chcemy, aby pętla for wykonywała 25 iteracji w przeciągu jedenj sekundy
+krok: obliczenia+wyświetlenie widoku
+- migawki można robić zapisując do plików o nazwach zawierających timestamp danego czasu
+- migawka wykorzystuje technikę serializacji i deserializacij - lub żeby było szybciej i bardziej robust w przypadku dużych danych to spróbować binarne pliki
+- po każdej zmianie trzeba sprawdzać czy jeden osobnik znajduje się w otoczeniu z innymi osobnikami
+- WPISAĆ W CMD JAKOŚ MOŻLIWOŚĆ PODANIA DOKŁADNYCH WYMIARÓW OBSZARU (bo w zadaniu jest n x m)
+- po wyjściu poza obszar osobnik zostaje unicestwiony
+- Najprościej stworzyć jakiś picturebox, rysować po nim i aktualizować (podejście z C#)
+- wykorzystać wzorzec stanu do określenia czy zdrowy/odporny/objawowy

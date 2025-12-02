@@ -1,0 +1,14 @@
+- iloczyn skalarny - żeby rozwiązać trzeba rozwiązać wyznacznikiem macierzy
+- wartość kąta obliczyć w radianach
+- za pomocą dziedziczenia i wz. projektowych
+- dekorator dodaje 3 wymiar w locie
+- konwersja z x, y na alfa, moduł to przy pomocy wzorca adapter
+- musi automatycznie się popakować/rozszerzyć przy wektorach
+
+- wektor oparty o dekorator z wektorem opartym o dziedziczenie sprawdzić
+
+- dla dowolnych wektorów obliczyć tam chyba iloczyn skalarny i wektorowy
+- będzie trzeba korzystać z jakiejś funkcji co jest czymś w rodzaju arctan
+
+-jeden wektor jako obiekt a drugi w parametrze
+- tam gdzie będzie czegoś brakowało w wektorze po konwersji to trzeba chyba zero dać ale idk
